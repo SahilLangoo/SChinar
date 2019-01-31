@@ -1,5 +1,15 @@
-/*@import url(http://fonts.googleapis.com/css?family=Poppins:400,300,700);
+.carousel {
+  margin-bottom: 3rem;
+}
 
-body {
-  font-family: 'Poppins', sans-serif !important;
-}*/
+.carousel-item {
+  height: 32rem;
+}
+
+.carousel-item>img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
