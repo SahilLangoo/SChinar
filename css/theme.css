@@ -751,6 +751,7 @@ ul.social-buttons li a:hover {
 }
 
 .carousel-caption {
+  color: #ffffff;
   bottom: 3rem;
   z-index: 10;
 }
