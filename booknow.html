@@ -147,11 +147,37 @@
               </div>
             </div>
 
-            <div class="mb-3">
-              <label for="email">Email</label>
-              <input type="email" class="form-control" id="email" placeholder="you@example.com" />
-              <div class="invalid-feedback">
-                Please enter a valid email address for updates.
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="phone">Phone Number</label>
+                <input type="text" class="form-control" id="phone" placeholder="+91" value="" maxlength="10" required />
+                <div class="invalid-feedback">
+                  Valid Phone Number is required.
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="you@example.com" required />
+                <div class="invalid-feedback">
+                  Please enter a valid email address for updates.
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="arrival-date">Date of Arrival</label>
+                <input type="date" class="form-control" id="arrival-date" required />
+                <div class="invalid-feedback">
+                  Valid date is required.
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="departure-date">Date of Departure</label>
+                <input type="date" class="form-control" id="departure-date" required />
+                <div class="invalid-feedback">
+                  Valid date is required.
+                </div>
               </div>
             </div>
 
@@ -164,7 +190,8 @@
             </div>
 
             <div class="form-group">
-              <label for="whoiswithyou">Who will be traveling with you?</label>
+              <label for="whoiswithyou">Who will be traveling with you? <span class="text-muted">
+                  (Optional)</span></label>
               <select class="form-control" id="whoiswithyou">
                 <option>Select</option>
                 <option>Myself</option>
@@ -177,22 +204,11 @@
 
             <hr class="mb-4" />
             <button class="btn btn-primary btn-lg btn-block" type="submit">
-              Continue to checkout
+              Confirm Booking
             </button>
           </form>
         </div>
       </div>
-
-      <footer class="my-5 pt-5 text-muted text-center text-small">
-        <p class="mb-1">
-          &copy; 2017-{{ site.time | date: "%Y" }} SChinar
-        </p>
-        <ul class="list-inline">
-          <li class="list-inline-item"><a href="#">Privacy</a></li>
-          <li class="list-inline-item"><a href="#">Terms</a></li>
-          <li class="list-inline-item"><a href="#">Support</a></li>
-        </ul>
-      </footer>
     </div>
   </section>
   <!-- Footer -->
