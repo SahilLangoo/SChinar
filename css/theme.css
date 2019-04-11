@@ -40,7 +40,7 @@ section {
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 section h3.section-subheading {
@@ -785,4 +785,16 @@ ul.social-buttons li a:hover {
   color: #ffffff;
   bottom: 3rem;
   z-index: 10;
+}
+
+footer {
+  background: #212529;
+}
+
+footer h6 {
+  color: #fec503;
+}
+
+footer p {
+  color: #ced4da;
 }
