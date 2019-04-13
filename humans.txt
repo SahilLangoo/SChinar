@@ -1,0 +1,21 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+Your title: Sahil.
+
+
+Site: sahilahmed3066@gmail.com, schinartourandtravels.com/#contact,
+
+
+Twitter: sahil3066.
+
+# THANKS
+
+    <Vikas>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3 , PHP7
+    jQuery, Bootstrap
